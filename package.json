@@ -1,6 +1,6 @@
 {
   "name": "cntstr",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A utility to count the number of characters in a given string",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

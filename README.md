@@ -16,26 +16,28 @@ yarn add cntstr
 
 ## 🚀 Usage
 
-### JavaScript
+### JavaScript（CommonJS）
 
 ```js
-const { countCharacters } = require('cntstr');
+const { countStr } = require('cntstr');
 
-console.log(countCharacters('hello')); // Output: 5
+const str = 'hello';
+console.log(countStr(str)); // Output: 5
 ```
 
-### TypeScript
+### TypeScript（ESModule）
 
 ```ts
-import { countCharacters } from 'cntstr';
+import { countStr } from 'cntstr';
 
-console.log(countCharacters('こんにちは')); // Output: 5
+const str: string = 'hello';
+console.log(countStr(str)); // Output: 5
 ```
 
 ## 🧠 Function
 
 ```ts
-export const countCharacters = (str: string): number => {
+export const countStr = (str: string): number => {
   return str.length;
 };
 ```
