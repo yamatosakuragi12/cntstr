@@ -5,13 +5,13 @@ A tiny utility to count the number of characters in a string.
 ## 📦 Installation
 
 ```bash
-npm install count-characters
+npm install cntstr
 ```
 
 or with Yarn:
 
 ```bash
-yarn add count-characters
+yarn add cntstr
 ```
 
 ## 🚀 Usage
