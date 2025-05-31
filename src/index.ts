@@ -1,3 +1,3 @@
-export const countCharacters = (str: string): number => {
+export const countStr = (str: string): number => {
   return str.length;
 };
