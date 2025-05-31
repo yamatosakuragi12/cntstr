@@ -2,14 +2,13 @@
   "name": "cntstr",
   "version": "1.0.1",
   "description": "A utility to count the number of characters in a given string",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:esm": "tsc -p tsconfig.esm.json",
-    "build": "npm run build:cjs && npm run build:esm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:cjs && npm run build:esm"
   },
   "repository": {
     "type": "git",
